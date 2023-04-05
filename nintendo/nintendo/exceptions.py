@@ -1,0 +1,2 @@
+class NintendoException(Exception):
+    pass
