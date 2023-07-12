@@ -26,7 +26,7 @@ class Nintendo(NintendoBase):
             'client_id': CLIENT_ID,
             'state': '',
             'response_type': 'code id_token token',
-            'scope': 'eshopDemo eshopDevice eshopPrice familyMember missionStatus missionStatus:progress openid parentalControlSetting pointTransaction pointWallet user user.birthday user.email user.membership user.mii user.wishlist',
+            'scope': 'eshopDemo eshopDevice eshopPrice familyMember missionStatus:anyClients missionStatus:progress openid parentalControlSetting pointTransaction pointWallet user user.birthday user.email user.membership user.mii user.wishlist',
             'redirect_uri': 'https://www.nintendo.com',
             'web_message_uri': 'https://accounts.nintendo.com',
             'web_message_target': 'op-frame',
